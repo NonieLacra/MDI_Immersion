@@ -1,0 +1,54 @@
+.carousel{
+    margin-top: 170px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.card{
+    
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 10px;
+    width: 90%;
+    
+    
+
+}
+
+.product-image{
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.card-details-black{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+   
+
+}
+
+.card-details-white{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    color: white;
+
+}
+
+.card-details-black h2, .card-details-white h2{
+    margin: 0;
+    padding: 0;
+}
+
+
+.card-details-black p, .card-details-white p{
+    font-size: 18px;
+    
+
+}
