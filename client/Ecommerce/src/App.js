@@ -1,17 +1,21 @@
 import React from 'react';
-// // import LoginForm from './components/loginForm';
-// import RegistrationForm from './components/RegistrationForm.js';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import LoginForm from './components/loginForm.js';
+import RegistrationForm from './components/registrationForm';
 import Header from './components/Header.js';
 import Body from './components/Body.js';
+import '../src/styles/loginform.css'
 
 function App() {
   return (
     <div className="App">
-      
-      {/* <LoginForm /> */}
-      {/* <RegistrationForm /> */}
-      <Header />
-      <Body />
+      <Router>
+        <Routes>
+          <Route path='/' element={<Header />} />
+          <Route path='/login' element={<LoginForm />} />        
+          <Route path='/register' element={<RegistrationForm />} />    
+        </Routes>
+      </Router>
     </div>
   );
 }
