@@ -11,9 +11,9 @@ const LoginForm = () => {
             <input type="password" placeholder="Password" />
 
             <div className="login-btn" > Login</div>
-            <Link to='/register'>
-            <div className="register-btn">Register</div>
-            </Link>
+            
+            <div className="register-btn" ><Link to='/register'>Register</Link></div>
+            
             
             <p className="text">Login using </p>
             <div className="alt-login">
