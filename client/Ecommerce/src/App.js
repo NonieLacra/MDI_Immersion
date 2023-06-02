@@ -21,6 +21,7 @@ function App() {
           <Route path='/register' element={<RegistrationForm />} />    
         </Routes>
       </Router>
+      <div></div>
     </div>
   );
 }
