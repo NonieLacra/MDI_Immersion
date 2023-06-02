@@ -1,6 +1,10 @@
 import React from "react";
+<<<<<<< Updated upstream
 import '../styles/loginform.css';
 import { Link } from "react-router-dom";
+=======
+import "../styles/loginform.css";
+>>>>>>> Stashed changes
 
 
 const LoginForm = () => {

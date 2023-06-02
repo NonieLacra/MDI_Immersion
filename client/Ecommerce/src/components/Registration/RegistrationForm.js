@@ -1,6 +1,10 @@
 import React from 'react'
+<<<<<<< Updated upstream:client/Ecommerce/src/components/registrationForm.js
 import '../styles/RegistrationForm.css'
 import { Link } from 'react-router-dom'
+=======
+import '../../styles/RegistrationForm.css'
+>>>>>>> Stashed changes:client/Ecommerce/src/components/Registration/RegistrationForm.js
 
 const RegistrationForm = () => {
   return (
