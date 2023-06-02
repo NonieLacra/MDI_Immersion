@@ -1,0 +1,103 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom-color: rgb(205, 203, 203);
+    z-index: 100;
+    /* background-color: grey; */
+}
+
+.left-section{
+    /* background-color: blue; */
+
+}
+
+.middle-section{
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.right-section{
+    /* background-color: blue; */
+    margin-right: 40px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-btn{
+    border: none;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+    
+}
+
+.user-icon{
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    
+   
+}
+
+.table-container{
+    width: 85%;
+    height: 80vh;
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    
+
+}
+
+
+table{
+    width: 90%;
+    border: 1px solid grey;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+     
+}
+
+.table-label{
+    background-color: white;
+    
+    
+}
+
+.table-label th{
+    width: 100%;
+    padding: 50px;
+    border: 1px solid grey;
+    margin: 0;
+    
+}
+.table-data{
+    
+
+}

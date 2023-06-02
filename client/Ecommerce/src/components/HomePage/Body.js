@@ -1,17 +1,17 @@
 import React from 'react'
-import '../styles/Body.css';
+import '../../styles/Body.css';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-import iphone14Pro from '../images/iphone14-pro.jpeg';
-import iphoneSportsBand from '../images/pride-sportband.jpeg';
-import ipadPro from '../images/ipad-pro.jpeg'
-import appleWatch8 from '../images/apple-watch-8.jpeg';
-import macBookPro from '../images/macbook-pro.jpeg';
-import iphone14 from '../images/iphone14.jpeg';
-import appleWatchUltra from '../images/apple-watch-ultra.jpeg';
-import ipad from '../images/ipad.jpeg';
-import macMini from '../images/mac-mini.jpeg';
+import iphone14Pro from '../../images/iphone14-pro.jpeg';
+import iphoneSportsBand from '../../images/pride-sportband.jpeg';
+import ipadPro from '../../images/ipad-pro.jpeg'
+import appleWatch8 from '../../images/apple-watch-8.jpeg';
+import macBookPro from '../../images/macbook-pro.jpeg';
+import iphone14 from '../../images/iphone14.jpeg';
+import appleWatchUltra from '../../images/apple-watch-ultra.jpeg';
+import ipad from '../../images/ipad.jpeg';
+import macMini from '../../images/mac-mini.jpeg';
 
 
 const responsive = {
