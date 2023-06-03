@@ -2,7 +2,7 @@ import React from 'react';
 import '../../styles/Header.css';
 import Menu from '../../icons/menu.svg';
 import Search from '../../icons/search.svg';
-import { Link } from 'react-router-dom';
+
 
 const Header = () => {
   return (
@@ -23,12 +23,11 @@ const Header = () => {
         </div>
 
         <div className='right-section'>
-          <Link to='/register'>
+          
           <span>Register</span>
-          </Link>
-          <Link to='/login'>
+          
+         
           <span>Login</span>
-          </Link>
           
 
         </div>

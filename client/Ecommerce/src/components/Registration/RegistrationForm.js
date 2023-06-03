@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../styles/RegistrationForm.css'
-import { Link } from 'react-router-dom'
+
 
 const RegistrationForm = () => {
   return (
@@ -34,9 +34,9 @@ const RegistrationForm = () => {
             
             <div>
             <span>Already have an account yet? </span>
-            <Link to='/login'>
+            
             <a class="sign-up" href="">Login</a>
-            </Link>
+            
             
             </div>
 

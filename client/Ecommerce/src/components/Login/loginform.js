@@ -1,6 +1,6 @@
 import React from "react";
-import '../styles/loginform.css';
-import { Link } from "react-router-dom";
+import '../../styles/loginform.css';
+
 
 
 const LoginForm = () => {
@@ -12,7 +12,7 @@ const LoginForm = () => {
 
             <div className="login-btn" > Login</div>
             
-            <div className="register-btn" ><Link to='/register'>Register</Link></div>
+            <div className="register-btn" >Register</div>
             
             
             <p className="text">Login using </p>
